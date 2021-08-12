@@ -1,0 +1,5 @@
+Sitemap: https://saley.ma/sitemap.xml
+User-agent: *
+Disallow:/old/*
+Disallow:/amani/*
+Disallow:/preprod/*

@@ -1,0 +1,37 @@
+{
+  "sources": [
+    {
+      "git": {
+        "name": ".",
+        "remote": "https://github.com/googleapis/google-cloud-php.git",
+        "sha": "2fc2caf8ea1eed6b0ce2f65d1b664b9e54643ef1"
+      }
+    },
+    {
+      "git": {
+        "name": "googleapis",
+        "remote": "https://github.com/googleapis/googleapis.git",
+        "sha": "711086539eba8c23ed6e0136e7edbe1973497a41",
+        "internalRef": "368057629"
+      }
+    },
+    {
+      "git": {
+        "name": "synthtool",
+        "remote": "https://github.com/googleapis/synthtool.git",
+        "sha": "0a071b3460344886297a304253bf924aa68ddb7e"
+      }
+    }
+  ],
+  "destinations": [
+    {
+      "client": {
+        "source": "googleapis",
+        "apiName": "texttospeech",
+        "apiVersion": "v1",
+        "language": "php",
+        "generator": "bazel"
+      }
+    }
+  ]
+}
